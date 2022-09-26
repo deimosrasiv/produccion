@@ -1,0 +1,131 @@
+/*@import url('https.//fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Prompt', sans-serif;
+}
+body{
+    
+	background-image: linear-gradient(315deg, #d67d91 0%, #853aa4 20%);
+	min-height: 100vh;
+}
+
+
+.center{
+	height: 100vh;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+	width: 100%;
+	padding: 20px;
+}
+
+table{
+	width: 100%;
+	
+}
+
+
+th{
+	font-size: 14px;
+	font-family: 'Aboreto', cursive;
+
+}
+
+tr{
+	font-size: 12px;
+	font-family: 'Aboreto', cursive;
+}
+
+
+
+tbody td:nth-child(1),td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
+	border-right: 0.8px solid #cbcbcb;
+	text-align: center;
+  }
+
+ tbody td:nth-child(5){
+ 	border-right: 0.8px solid #cbcbcb;
+  	text-align: center;
+  	font-size: 15px;
+  	color: green;
+  }
+
+
+
+thead .cab-production {
+  	background-color:#853AA4;
+  	border-right: 0.8px solid #cbcbcb;
+  	color: white;
+  	text-align: center;
+  }
+
+thead .cab-cab-producto, thead .cab-cab-cantidad, thead .cab-cab-hora {
+  	background-color:#853AA4;
+  	border-right: 0.8px solid #cbcbcb;
+  	color: white;
+  	text-align: center;
+}
+
+thead .cab-cab-salida  {
+	background-color:yellow;
+  	border-right: 0.8px solid #cbcbcb;
+  	color: black;
+  	text-align: center;	
+}
+
+
+thead .cab-cab-saldo  {
+	background-color:green;
+  	border-right: 0.8px solid #cbcbcb;
+  	color: white;
+  	text-align: center;	
+}
+
+
+
+
+
+tbody td:nth-child(1){
+	width: 200px;
+	height: 50px;
+}
+
+.icons-table{
+	width: 20%;
+}
+
+h2{
+	font-size: 50px;
+	 font-family: 'Aboreto', cursive;
+	 color: white;
+}
+
+.ingsal{
+	width: 800px;
+	height: 200px;
+}
+.banner
+{
+	position: relative;
+	width: 100%;
+	height: 10vh;
+	/*background: url('assets/img/ad236324028a-hindu-holy-man.jpg');*/
+	
+}
+
+
+footer{
+	text-align: center;
+}

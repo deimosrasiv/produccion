@@ -1,0 +1,182 @@
+/*@import url('https.//fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Prompt', sans-serif;
+}
+body{
+    
+	background-image: linear-gradient(315deg, #d67d91 0%, #853aa4 20%);
+	min-height: 100vh;
+}
+
+
+
+
+
+h2, h3, h4, h5 {
+	
+	 font-family: 'Aboreto', cursive;
+	 color: white;
+} 
+
+
+
+.center{
+	height: 100vh;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+	width: 100%;
+	height: 100%;
+	padding: 20px;	
+	min-width: 80vh;
+}
+
+
+table{
+	width: 100%;
+	
+}
+
+
+th{
+	font-size: 14px;
+	font-family: 'Aboreto', cursive;
+
+}
+
+tr{
+	font-size: 12px;
+	font-family: 'Aboreto', cursive;
+}
+
+tbody tr:cab-cab-palacio{
+	font-size: 22px;
+}
+
+tbody td:nth-child(1),td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(6) {
+	border-right: 0.4px solid #cbcbcb;
+	text-align: center;
+  }
+
+
+
+
+
+
+
+ 
+
+  /*thead th:nth-child(1), th:nth-child(2), th:nth-child(3), th:nth-child(4), th:nth-child(5), th:nth-child(6) {
+  	background-color:#853AA4 ;
+  }*/
+
+  thead .cab-daitona, thead .cab-palacio, thead .cab-production, thead .cab-arbolito {
+  	background-color:#853AA4;
+  	border-right: 0.4px solid #cbcbcb;
+  	color: white;
+  	text-align: center;
+  }
+
+  thead .cab-cab-daitona,  thead .cab-cab-palacio, thead .cab-cab-producto, thead .cab-cab-arbolito, thead .cab-cab-cantidad, thead .cab-cab-hora {
+  	background-color:#853AA4;
+  	border-right: 0.4px solid #cbcbcb;
+  	color: white;
+  	text-align: center;
+  }
+
+thead .cab-cab-arbolito, thead .cab-arbolito {
+	background-color:#7866ED ;
+	text-align: center;
+}
+
+tbody td:nth-child(1){
+	width: 200px;
+	height: 50px;
+}
+
+
+.icons-table{
+	width: 40px;
+	margin: 5px;
+
+		
+}
+
+
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 30vh;
+	/*background: url('assets/img/ad236324028a-hindu-holy-man.jpg');*/
+	background-size: cover;
+}
+
+
+footer{
+	text-align: center;
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-areas: 
+	"tproduccion tproduccion tproduccion tproduccion tpalacio tarbolito tdaitona"
+	"tproducto tcantidad thora tsaldo tinpalacio tinarbolito tindaitona"
+	"imghambur cantidadham horaham saldoham cpalacioham carbolitoham cdaitonaham"
+	"imghotdog cantidadhot horahot saldohot cxpalaciohot carbolitohot cdaitonahot"
+	"imgpapas cantidadpapas horapapas saldopapas cpalaciopapas carbolitopapas cdaitonapapas";
+	gap: 0.4px;
+}
+
+.rs{
+	border-top-left-radius:  15px;
+}
+
+.re{
+	border-top-right-radius: 15px;
+}
+
+
+.grid-item:nth-child(1){
+	grid-area:tproduccion ;
+}
+
+.cabecera{
+	background-color:#853AA4;
+  	border-right: 1.8px solid #cbcbcb;
+  	color: white;
+  	text-align: center;
+  	padding-top: 8px;
+  	padding-bottom: 8px;
+
+}
+
+.cabecera_c{
+	background-color:#7866ED ;
+  	border-right: 1.8px solid #cbcbcb;
+  	color: white;
+	text-align: center;
+	padding-top: 8px;
+  	padding-bottom: 8px;  	
+}
+
+.detalle {
+	border-right: 0.8px solid #cbcbcb;
+	text-align: center;
+
+
+}
